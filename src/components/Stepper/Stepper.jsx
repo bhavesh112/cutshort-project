@@ -16,8 +16,7 @@ const Stepper = () => {
             <StepLabel
               active={currentStep >= index}
               onClick={() => {
-                if (currentStep >= index)
-                  dispatch({ type: "SET_STEP", payload: index });
+                dispatch({ type: "SET_STEP", payload: index });
               }}
             >
               <span>{step}</span>
