@@ -28,7 +28,7 @@ const FinalStage = () => {
         <Typography variant='h4' fontWeight={"600"} mb={1}>
           Congratulation, Eren!
         </Typography>
-        <Typography variant='caption' color='text.secondary' mb={3}>
+        <Typography fontSize={"1rem"} color='text.secondary' mb={3}>
           You have completed your onboarding, you can start using Eden.
         </Typography>
         <Box px={"40px"} width='100%'>
