@@ -24,8 +24,8 @@ const OnboardingForm = () => {
           sx={{
             position: "absolute",
             left: "50%",
-            top: "50%",
-            transform: "translate(-50%, -50%)",
+            top: "40px",
+            transform: "translateX(-50%)",
             maxWidth: "560px",
             width: "100%",
           }}
